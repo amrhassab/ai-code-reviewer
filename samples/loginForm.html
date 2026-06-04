@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <input id="x" type="text" />
+  <input id="y" type="password" />
+  <button onclick="
+    var u = document.getElementById('x').value;
+    var p = document.getElementById('y').value;
+    window.location = 'https://api.example.com/login?user=' + u + '&pass=' + p;
+  ">go</button>
+</body>
+</html>
